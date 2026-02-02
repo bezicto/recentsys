@@ -12,10 +12,12 @@ More information later.
    - `/var/www/html/recentsys` (if using CentOS/Rocky/Alma)  
    - `C:/xampp/htdocs/recentsys` (if using XAMPP)
 6. Make sure the directory structure inside `recentsys` is as follows:
+```
 recentsys/
 ├─ site/*
 ├─ rsc/*
 └─ index.php
+```
 7. Edit `$dbname`, `$dbuser`, and `$dbpass` in `recentsys/site/config.php` according to the settings you created in steps 1 and 2.
 8. In this `config.php` file, you may also modify other settings if necessary.
 9. Once completed, navigate to:  
