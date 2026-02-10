@@ -18,11 +18,12 @@ recentsys/
 ├─ rsc/*
 └─ index.php
 ```
-7. Edit `$dbname`, `$dbuser`, and `$dbpass` in `recentsys/site/config.php` according to the settings you created in steps 1 and 2.
+7. Edit `$dbname`, `$dbuser`, and `$dbpass` in `/site/config.php` according to the settings you created in steps 1 and 2.
 8. In this `config.php` file, you may also modify other settings if necessary.
-9. Once completed, navigate to:  
+9. You might want to make apache writable to `/site/albums` and `/site/docs` directory in order for recentsys to upload files onto each directory later (please google this, if you use xampp, you might need not to do this).
+10. Once completed, navigate to:  
 `http://localhost/recentsys/index.php`
-10. Log in to the Admin Login using the following credentials:  
+11. Log in to the Admin Login using the following credentials:  
  - **Username:** admin  
  - **Password:** 1  
  *(Please change this password immediately.)*
